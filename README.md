@@ -21,6 +21,17 @@ public class ContaTerminal {
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia +
                 ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque.");
 
+
+
+                Aqui está uma breve explicação do código:
+
+Importamos a classe Scanner para facilitar a entrada de dados via terminal.
+Criamos um objeto Scanner chamado scanner para ler os dados do terminal.
+Solicitamos ao usuário que insira o número da agência, número da conta, nome do cliente e saldo, respectivamente.
+Utilizamos os métodos nextLine() e nextInt() do Scanner para ler os dados do usuário.
+Após a leitura de cada dado, armazenamos esses dados em variáveis correspondentes.
+Por fim, exibimos a mensagem final utilizando os dados inseridos pelo usuário.
+
         scanner.close();
     }
 }
